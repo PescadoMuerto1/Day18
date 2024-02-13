@@ -5,9 +5,13 @@ h1{
     color: white;
 }
 div{
+    display: grid;
     border-radius: 50%;
     width: 100px;
     height: 100px;
     background-color: aquamarine;
     margin:auto;
+    place-content: center;
+    font-size: 22px;
+    font-weight: bold;
 }
